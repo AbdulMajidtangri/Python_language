@@ -1,7 +1,7 @@
 # File handling is used to create, read, write, update, and delete files in Python.
 
 # 1. Create and write file
-import os
+import os # importing the os module to use the remove() function to delete files.
 
 
 filehandle = open("new_file.txt", "w")
