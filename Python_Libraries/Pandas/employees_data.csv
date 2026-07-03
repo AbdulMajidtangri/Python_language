@@ -1,0 +1,31 @@
+employee_id,name,department,designation,age,city,salary,experience_years,joining_date,performance_score,employment_status
+101,Ali Khan,IT,Software Engineer,23,Hyderabad,55000,2,2022-01-15,85,Active
+102,Abdul Majid,IT,MERN Stack Developer,21,Hyderabad,45000,1,2024-03-10,90,Active
+103,Ahmed Raza,Finance,Accountant,26,Karachi,60000,4,2021-06-20,78,Active
+104,Hassan Ali,HR,HR Officer,28,Lahore,65000,5,2020-09-01,82,Active
+105,Hussain Shah,Marketing,Marketing Executive,25,Islamabad,50000,3,2022-11-12,88,Active
+106,Sara Ahmed,Sales,Sales Officer,24,Karachi,48000,2,2023-02-05,75,Active
+107,Ayesha Khan,Finance,Finance Manager,32,Hyderabad,120000,8,2018-07-18,91,Active
+108,Bilal Ahmed,IT,Backend Developer,27,Lahore,80000,4,2021-12-01,86,Active
+109,Danish Ali,HR,Recruiter,29,Karachi,52000,5,2020-05-22,80,Active
+110,Farhan Raza,Marketing,SEO Specialist,26,Islamabad,58000,3,2022-08-30,84,Active
+111,Kashif Hussain,Sales,Sales Manager,31,Hyderabad,95000,7,2019-04-14,89,Active
+112,Zain Malik,IT,Frontend Developer,22,Karachi,50000,1,2024-01-10,92,Active
+113,Usman Tariq,Finance,Audit Assistant,25,Lahore,47000,2,2023-06-25,76,Active
+114,Hamza Noor,HR,HR Manager,35,Islamabad,130000,10,2016-03-19,95,Active
+115,Noman Ali,Marketing,Content Writer,24,Hyderabad,42000,2,2023-09-08,81,Active
+116,Iqra Fatima,Sales,Business Developer,27,Karachi,70000,4,2021-10-11,87,Active
+117,Hira Khan,Finance,Tax Officer,30,Lahore,75000,6,2020-01-27,83,Active
+118,Sana Malik,IT,Data Analyst,26,Hyderabad,85000,3,2022-04-09,90,Active
+119,Muneeb Ahmed,HR,Office Assistant,23,Islamabad,38000,1,2024-05-01,74,Probation
+120,Saad Raza,Marketing,Social Media Manager,28,Karachi,62000,5,2021-07-15,85,Active
+121,Rehan Shah,Sales,Sales Executive,29,Lahore,68000,6,2020-11-23,88,Active
+122,Taha Ali,IT,Python Developer,24,Hyderabad,60000,2,2023-01-12,86,Active
+123,Asad Khan,Finance,Finance Analyst,27,Karachi,72000,4,2021-09-18,79,Active
+124,Laiba Noor,HR,HR Assistant,25,Islamabad,40000,2,2023-04-20,77,Probation
+125,Maham Tariq,Marketing,Brand Manager,33,Lahore,110000,9,2017-12-10,93,Active
+126,Nida Fatima,Sales,Customer Support,26,Hyderabad,43000,3,2022-06-05,82,Active
+127,Fahad Ali,Finance,Accounts Officer,31,Karachi,66000,5,2020-08-28,84,Active
+128,Arsalan Khan,IT,Full Stack Developer,25,Hyderabad,90000,4,2021-03-17,91,Active
+129,Komal Shah,HR,Admin Officer,28,Lahore,46000,3,2022-10-25,78,Active
+130,Rimsha Ahmed,Marketing,Digital Marketer,24,Islamabad,57000,2,2023-11-02,80,Active
