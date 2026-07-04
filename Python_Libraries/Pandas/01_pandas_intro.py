@@ -1,5 +1,11 @@
+# Pandas Employee Dataset Practice
+# Pandas is a Python library used for data analysis and data manipulation.
+# It is used to work with tabular data like CSV, Excel, JSON, and database tables.
 import pandas as pd
+from pathlib import Path
 
+
+# 1. Create Employee Dataset
 employees_dataset = {
     "employee_id": [
         101, 102, 103, 104, 105, 106, 107, 108, 109, 110,
@@ -97,42 +103,178 @@ employees_dataset = {
         "Active", "Active", "Active", "Active", "Active"
     ]
 }
-
+# 2. Convert Dictionary into DataFrame
 df = pd.DataFrame(employees_dataset)
 
+# Convert joining_date column into proper datetime format
+df["joining_date"] = pd.to_datetime(df["joining_date"])
+
+print("\nComplete Employee DataFrame:")
 print(df)
+# 3. Save DataFrame into CSV, Excel, and JSON
 
-# Save to CSV file
-df.to_csv(
-    r"C:\Users\MS Compuuter\OneDrive\Desktop\python\start_from_basics\Python_Libraries\Pandas\employees_data.csv",
-    index=False
+output_dir = Path(
+    r"C:\Users\MS Compuuter\OneDrive\Desktop\python\start_from_basics\Python_Libraries\Pandas"
 )
 
-print("Employees dataset has been written to CSV file successfully.")
+output_dir.mkdir(parents=True, exist_ok=True)
 
-# Save to Excel file
-df.to_excel(
-    r"C:\Users\MS Compuuter\OneDrive\Desktop\python\start_from_basics\Python_Libraries\Pandas\employees_data.xlsx",
-    index=False
-)
+csv_path = output_dir / "employees_data.csv"
+excel_path = output_dir / "employees_data.xlsx"
+json_path = output_dir / "employees_data.json"
 
+df.to_csv(csv_path, index=False)
+print("\nEmployees dataset has been written to CSV file successfully.")
+
+df.to_excel(excel_path, index=False)
 print("Employees dataset has been written to Excel file successfully.")
 
-#Save to JSON file
-df.to_json(
-    r"C:\Users\MS Compuuter\OneDrive\Desktop\python\start_from_basics\Python_Libraries\Pandas\employees_data.json",
-    orient='records' )
+df.to_json(json_path, orient="records", indent=4)
 print("Employees dataset has been written to JSON file successfully.")
 
-#small operations on dataframes
-print("Performing small operations on the DataFrame:")
 
-print(df.head())  # Display the first 5 rows of the DataFrame
-print(df.tail())  # Display the last 5 rows of the DataFrame
-print(df.info())  # Display information about the DataFrame
-print(df.shape)  # Display the shape of the DataFrame (rows, columns)
-print(df.describe())  # Display summary statistics of the DataFrame
-print(df[df['age']>25]) # Display rows where age is greater than 25
-print(df[(df['age']>25) & (df['salary']<50000) & (df['city']=='Lahore')]) # Display rows where age is greater than 25 and salary is less than 50000
+# 4. Basic DataFrame Operations
 
-print(df.sort_values(by='employee_id', ascending=False))  # Sort the DataFrame by employee_id in descending order
+print("\nFirst 5 rows:")
+print(df.head())
+
+print("\nLast 5 rows:")
+print(df.tail())
+
+print("\nDataFrame information:")
+df.info()
+
+print("\nShape of DataFrame:")
+print(df.shape)
+
+print("\nColumn names:")
+print(df.columns)
+
+print("\nData types:")
+print(df.dtypes)
+
+print("\nStatistical summary:")
+print(df.describe())
+
+
+# 5. Check Missing Values and Duplicate Rows
+
+print("\nMissing values in each column:")
+print(df.isnull().sum())
+
+print("\nTotal duplicate rows:")
+print(df.duplicated().sum())
+
+
+# 6. Select Specific Columns
+
+print("\nSelecting name, department, and salary columns:")
+
+selected_columns = df[["name", "department", "salary"]]
+print(selected_columns)
+
+
+# 7. Filter Data
+
+print("\nEmployees whose age is greater than 25:")
+print(df[df["age"] > 25])
+
+print("\nEmployees whose age is greater than 25, salary less than 50000, and city is Lahore:")
+
+filtered_employees = df[
+    (df["age"] > 25) &
+    (df["salary"] < 50000) &
+    (df["city"] == "Lahore")
+]
+
+print(filtered_employees)
+
+print("\nEmployees from IT department:")
+print(df[df["department"] == "IT"])
+
+print("\nEmployees with performance score greater than 90:")
+print(df[df["performance_score"] > 90])
+
+# 8. Sort Data
+
+print("\nEmployees sorted by employee_id in descending order:")
+print(df.sort_values(by="employee_id", ascending=False))
+
+print("\nEmployees sorted by salary in descending order:")
+print(df.sort_values(by="salary", ascending=False))
+
+
+# 9. Add New Column
+
+print("\nAdding bonus column:")
+
+df["bonus"] = df["salary"] * 0.10
+
+print(df[["name", "salary", "bonus"]])
+
+
+# 10. Select Rows Using loc and iloc
+
+print("\nFirst row using loc:")
+print(df.loc[0])
+
+print("\nRows from index 0 to 5 using loc:")
+print(df.loc[0:5])
+
+print("\nFirst row using iloc:")
+print(df.iloc[0])
+
+print("\nRows from position 0 to 5 using iloc:")
+print(df.iloc[0:5])
+
+
+# 11. loc vs iloc
+# loc is label-based indexing.
+# It uses row labels and column names.
+#
+# iloc is integer-position-based indexing.
+# It uses only integer positions.
+
+print("\nEmployee name from first row using loc:")
+print(df.loc[0, "name"])
+
+print("\nEmployee name from first row using iloc:")
+print(df.iloc[0, 1])
+# 12. GroupBy Analysis
+#groupby() ka kaam hota hai data ko kisi column ke base par groups mein divide karna, phir har group par calculation perform karna.
+print("\nAverage salary by department:")
+print(df.groupby("department")["salary"].mean())
+
+print("\nTotal salary by department:")
+print(df.groupby("department")["salary"].sum())
+
+print("\nAverage performance score by department:")
+print(df.groupby("department")["performance_score"].mean())
+
+print("\nNumber of employees in each city:")
+print(df["city"].value_counts())
+
+print("\nNumber of employees in each department:")
+print(df["department"].value_counts())
+
+# 13. Drop Column
+
+print("\nDropping bonus column:")
+
+df = df.drop(columns=["bonus"])
+
+print(df.head())
+
+# 14. Rename Columns
+
+print("\nRenaming columns:")
+
+df = df.rename(
+    columns={
+        "name": "employee_name",
+        "department": "dept_name"
+    }
+)
+
+print(df.head())
+
