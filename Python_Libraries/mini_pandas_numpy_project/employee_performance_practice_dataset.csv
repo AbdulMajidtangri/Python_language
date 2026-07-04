@@ -1,0 +1,83 @@
+employee_id,employee_name,department,designation,age,city,salary,experience_years,joining_date,performance_score,training_hours,projects_completed,leaves_taken,employment_status
+1001,Employee 1,Operations,Coordinator,21,Hyderabad,44012,0,2017-12-23,69,13,4,17,Active
+1002,Employee 2,IT,Frontend Developer,27,Hyderabad,101846,7,2023-02-11,56,40,7,20,Active
+1003,Employee 3,Marketing,Content Writer,29,Multan,87968,10,2019-06-01,82,26,9,4,Active
+1004,Employee 4,IT,Software Engineer,24,Islamabad,81615,3,2023-01-06,71,56,2,14,Probation
+1005,Employee 5,IT,Backend Developer,30,Multan,93345,6,2019-07-23,67,50,3,1,Active
+1006,Employee 6,Finance,Audit Assistant,33,Hyderabad,117699,12,2019-05-09,78,15,12,11,Active
+1007,Employee 7,Sales,Sales Executive,38,Karachi,,14,2023-04-01,84,29,9,20,Active
+1008,Employee 8,IT,Frontend Developer,22,Karachi,68529,1,2024-05-08,59,18,11,6,Probation
+1009,Employee 9,Operations,Coordinator,25,Islamabad,56324,4,2021-10-21,90,39,9,18,Active
+1010,Employee 10,Finance,Finance Analyst,37,Karachi,110462,15,2024-01-15,58,60,4,4,Probation
+1011,Employee 11,Sales,Business Developer,33,Hyderabad,105008,11,2023-01-09,88,21,1,3,Active
+1012,Employee 12,IT,Backend Developer,34,Lahore,121065,14,2018-03-12,71,37,6,16,Resigned
+1013,Employee 13,Sales,Sales Officer,25,Karachi,64481,4,2017-03-21,88,5,11,15,Active
+1014,Employee 14,HR,Recruiter,22,Karachi,57936,2,2022-12-22,60,51,16,2,Active
+1015,Employee 15,Operations,Operations Executive,38,Islamabad,113175,18,2019-04-04,,32,7,17,Probation
+1016,Employee 16,Operations,Admin Officer,35,Lahore,94170,12,2017-03-28,70,19,3,10,Resigned
+1017,Employee 17,Finance,Finance Analyst,23,Hyderabad,58750,0,2022-10-07,59,7,11,2,Active
+1018,Employee 18,Operations,Coordinator,27,Islamabad,64015,4,2022-04-22,91,41,16,7,Active
+1019,Employee 19,IT,Software Engineer,42,Hyderabad,145959,20,2024-03-31,81,34,2,20,Active
+1020,Employee 20,Marketing,Content Writer,24,Lahore,61252,4,2019-01-22,89,33,5,13,Probation
+1021,Employee 21,Finance,Finance Analyst,35,Hyderabad,90640,12,2019-08-27,96,39,1,2,Probation
+1022,Employee 22,Marketing,Content Writer,27,,61397,5,2022-02-07,79,5,13,8,Probation
+1023,Employee 23,Operations,Office Assistant,42,Multan,123410,18,2023-07-01,67,23,7,1,Active
+1024,Employee 24,IT,Python Developer,39,Hyderabad,146204,17,2017-10-08,65,8,3,5,Active
+1025,Employee 25,Operations,Coordinator,33,Karachi,111695,14,2017-12-02,92,43,2,19,Resigned
+1026,Employee 26,Sales,Business Developer,31,Multan,87332,10,2018-06-21,75,20,9,12,Probation
+1027,Employee 27,HR,Recruiter,21,Hyderabad,48638,0,2019-12-23,59,39,7,16,Active
+1028,Employee 28,IT,Python Developer,32,Karachi,101785,11,2024-05-02,89,50,10,19,Active
+1029,Employee 29,Operations,Operations Executive,30,Multan,59744,6,2018-09-29,71,12,4,17,Active
+1030,Employee 30,Sales,Sales Manager,31,Karachi,90671,11,2024-02-12,86,21,2,2,Active
+1031,Employee 31,IT,Software Engineer,31,Hyderabad,101939,11,2017-02-09,83,40,14,17,Active
+1032,Employee 32,Operations,Operations Executive,38,Karachi,125771,19,2017-06-21,90,14,14,4,Active
+1033,Employee 33,IT,Data Analyst,27,Lahore,81493,3,2018-09-26,61,27,14,19,Active
+1034,Employee 34,Finance,Accountant,21,Islamabad,71678,1,2018-10-15,81,,8,8,Probation
+1035,Employee 35,IT,Data Analyst,28,Islamabad,100808,8,2017-04-07,74,57,8,7,Probation
+1036,Employee 36,HR,HR Assistant,23,Lahore,65386,2,2018-04-18,87,30,11,0,Active
+1037,Employee 37,Sales,Sales Officer,22,Lahore,64948,3,2023-10-20,77,51,11,13,Probation
+1038,Employee 38,Sales,Sales Officer,29,Karachi,85887,10,2021-11-02,88,56,7,11,Active
+1039,Employee 39,Sales,Business Developer,42,Lahore,137098,23,2021-07-07,74,47,14,10,Resigned
+1040,Employee 40,Finance,Accountant,34,Karachi,106617,10,2023-02-23,66,44,10,12,Active
+1041,Employee 41,HR,HR Manager,34,Karachi,112550,11,2019-05-26,75,34,15,14,Active
+1042,Employee 42,Operations,Admin Officer,30,Hyderabad,68634,7,2019-03-27,70,48,10,7,Active
+1043,Employee 43,IT,Frontend Developer,36,Karachi,103835,13,2022-07-18,81,45,7,12,Active
+1044,Employee 44,Finance,Accountant,24,Hyderabad,64673,2,2019-10-18,88,34,2,17,Probation
+1045,Employee 45,Finance,Tax Officer,42,Islamabad,155746,19,2022-08-30,75,53,15,19,Resigned
+1046,Employee 46,Marketing,SEO Specialist,36,Karachi,107171,14,2022-06-08,70,58,9,16,Active
+1047,Employee 47,Marketing,SEO Specialist,30,Hyderabad,86622,10,2018-09-10,75,39,3,4,Probation
+1048,Employee 48,Operations,Admin Officer,27,Karachi,80270,,2017-09-13,76,39,15,13,Probation
+1049,Employee 49,Marketing,SEO Specialist,21,Multan,52814,0,2021-09-13,55,27,10,12,Probation
+1050,Employee 50,Finance,Finance Analyst,34,Lahore,92787,12,2022-03-30,76,47,13,5,Resigned
+1051,Employee 51,Sales,Sales Executive,33,Hyderabad,101972,10,2022-03-07,56,10,14,4,Active
+1052,Employee 52,HR,HR Assistant,31,Islamabad,100337,11,2021-09-23,76,53,13,8,Active
+1053,Employee 53,Marketing,SEO Specialist,38,Hyderabad,123400,19,2019-10-10,96,9,2,0,Active
+1054,Employee 54,Sales,Business Developer,28,Karachi,89480,8,2019-11-16,62,41,7,14,Active
+1055,Employee 55,Sales,Sales Manager,24,Multan,59867,4,2021-03-18,92,6,10,18,Active
+1056,Employee 56,IT,Backend Developer,41,Multan,132679,21,2017-06-18,74,59,4,18,Resigned
+1057,Employee 57,Marketing,Content Writer,23,Lahore,45207,0,2021-11-11,81,57,16,3,Probation
+1058,Employee 58,Operations,Operations Executive,34,Karachi,115575,14,2021-11-20,72,44,16,14,Active
+1059,Employee 59,Finance,Tax Officer,29,Hyderabad,91781,7,2017-04-28,84,41,13,10,Active
+1060,Employee 60,Finance,Finance Analyst,27,Islamabad,81924,6,2017-02-11,72,43,9,17,Active
+1061,Employee 61,Finance,Accountant,36,Islamabad,111606,13,2017-03-12,85,46,16,14,Active
+1062,Employee 62,Finance,Audit Assistant,28,Islamabad,95220,7,2023-03-05,85,40,12,13,Active
+1063,Employee 63,Operations,Admin Officer,29,Islamabad,72009,8,2018-05-05,62,51,7,10,Active
+1064,Employee 64,Finance,Audit Assistant,29,Islamabad,92025,5,2019-03-07,88,43,10,3,Active
+1065,Employee 65,HR,Recruiter,30,Karachi,100630,11,2020-04-11,72,7,2,17,Probation
+1066,Employee 66,IT,Frontend Developer,39,Hyderabad,147439,18,2019-11-01,83,26,6,1,Active
+1067,Employee 67,IT,Backend Developer,36,Islamabad,152983,17,2023-04-25,98,8,5,4,Active
+1068,Employee 68,Finance,Audit Assistant,38,Hyderabad,144494,16,2021-12-19,94,19,13,14,Resigned
+1069,Employee 69,Marketing,Content Writer,39,Lahore,98924,16,2019-05-15,61,53,7,20,Active
+1070,Employee 70,Finance,Audit Assistant,26,Karachi,65985,3,2022-04-09,55,31,15,19,Active
+1071,Employee 71,Finance,Finance Analyst,30,Lahore,82320,6,2023-08-13,98,19,9,20,Probation
+1072,Employee 72,IT,Python Developer,28,Multan,76792,4,2020-06-13,64,9,2,5,Resigned
+1073,Employee 73,HR,HR Officer,24,Islamabad,65954,2,2017-11-26,80,22,16,14,Probation
+1074,Employee 74,Operations,Office Assistant,40,Lahore,90991,19,2023-06-19,69,48,1,8,Active
+1075,Employee 75,Marketing,Content Writer,41,Multan,117114,19,2022-04-10,92,32,16,2,Probation
+1076,Employee 76,HR,HR Officer,42,Lahore,125037,23,2021-06-29,81,49,16,9,Probation
+1077,Employee 77,IT,Frontend Developer,29,Lahore,96449,8,2022-03-08,80,60,1,17,Active
+1078,Employee 78,Finance,Finance Analyst,32,Multan,106115,9,2019-12-30,83,53,2,6,Active
+1079,Employee 79,Marketing,Marketing Executive,24,Islamabad,73885,5,2021-07-30,65,24,1,17,Active
+1080,Employee 80,IT,Frontend Developer,24,Islamabad,68165,0,2022-05-31,73,37,9,13,Active
+1011,Employee 11,Sales,Business Developer,33,Hyderabad,105008,11,2023-01-09,88,21,1,3,Active
+1026,Employee 26,Sales,Business Developer,31,Multan,87332,10,2018-06-21,75,20,9,12,Probation
